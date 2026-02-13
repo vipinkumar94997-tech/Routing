@@ -4,9 +4,12 @@ import { useNavigate } from "react-router-dom";
 const About = () => {
   const navigate = useNavigate();
   return (
-    <div className="flex flex-col">
-      <h1>About</h1>
-      <button onClick={() => navigate("/20")} className="bg-amber-500">
+    <div className="flex flex-col gap-3">
+      <div>About</div>
+      <button
+        onClick={() => navigate("/56")}
+        className="bg-amber-500 rounded p-2"
+      >
         Go to Details page
       </button>
     </div>
